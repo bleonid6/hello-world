@@ -27,8 +27,12 @@ git remote -v  --  shows list of remote connections
 git branch 
 git branch -r  -- remote branches
 git branch -a  -- all branches
+git branch -d <branch name> -- delete branch
 git branch <new branch>  
 git branch -M main  -- switch branches
+git checkout <branch name>  -- switch branches
+
+git push -u origin leo1_branch -- will create new branch on remote server if it's not there
 git push -u origin main
 
 git pull  
